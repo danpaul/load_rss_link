@@ -1,0 +1,28 @@
+{
+  "name": "load-rss-link",
+  "version": "1.0.0",
+  "description": "Retrieves site's RSS feed if it has one declared.",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.69.0",
+    "cheerio": "^0.20.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danpaul/load_rss_link"
+  },
+  "keywords": [
+    "rss",
+    "feed"
+  ],
+  "author": "Dan Breczinski <pt2323@gmail.com> (http://dpb.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danpaul/load_rss_link/issues"
+  },
+  "homepage": "https://github.com/danpaul/load_rss_link"
+}
