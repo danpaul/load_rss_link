@@ -1,6 +1,6 @@
 {
   "name": "load-rss-link",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Retrieves site's RSS feed if it has one declared.",
   "main": "index.js",
   "dependencies": {

@@ -9,7 +9,7 @@ Simple module to retireve a site's RSS link if one is declared. I.e.: `<link rel
 ```javascript
 var loadRssLink = requre('load-rss-link');
 
-loadRssLink('https://news.ycombinator.com', function(err, rssLink) {
+loadRssLink({url: 'https://news.ycombinator.com'}, function(err, rssLink) {
     if( err ){ return console.log(err); }
     if( rssLink === null ){
         console.log('No rss link found.');
